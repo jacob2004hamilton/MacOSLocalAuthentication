@@ -10,6 +10,8 @@ This addition also requires pyobjc to be installed.
 NOTE: I could not find a solution to only allow a password input as this does not seem to be a policy in the LA framework.
 """
 
+__version__ = "1.0.0"
+
 import sys
 import ctypes
 from LocalAuthentication import *
